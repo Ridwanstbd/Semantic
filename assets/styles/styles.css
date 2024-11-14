@@ -1,18 +1,28 @@
+:root {
+    --primary-color:#ABABAB;
+    --secondary-color:#707070;
+    --third-color:#C9BFBF;
+    --nav-color:#b321a2;
+}
+html{
+    scroll-behavior: smooth;
+}
+
 nav {
-    background: #C9BFBF;
+    background: var(--third-color);
     grid-area: nav;
 }
 header {
-    background: #707070;
+    background: var(--secondary-color);
     grid-area: header;
     text-align: center;
 }
 section {
-    background: #ABABAB;
+    background: var(--primary-color);
     grid-area: section;
 }
 footer {
-    background: #707070;
+    background: var(--secondary-color);
     grid-area: footer;
     font-size: small;
     text-align: center;
@@ -28,6 +38,26 @@ body {
     grid-gap:5px;
     height: 100vh;
     margin: 10px;
+}
+#home {
+    grid-area: section;
+    height: 80vh;
+}
+#pengertian {
+    grid-area: section;
+    height: 80vh;
+}
+#kesimpulan {
+    grid-area: section;
+    height: 100vh;
+}
+li,a {
+    color: white;
+    background: var(--nav-color);
+    margin-bottom: 3px;
+    padding: 3px 6px;
+    list-style-type: none;
+    text-decoration: none;
 }
 header,nav,section,footer {
     padding: 5px;
