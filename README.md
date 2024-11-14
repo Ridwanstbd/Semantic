@@ -95,9 +95,11 @@ header,nav,section,footer {
         </ul>
     </nav>
     <section>
-        <article id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid mollitia velit hic deserunt impedit accusantium nemo vero ullam sed. Corrupti delectus earum possimus maxime esse. Perspiciatis debitis vitae eum!</article>
-        <article id="pengertian">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima adipisci repellendus ducimus incidunt maxime! Quisquam, harum nemo dolorem doloremque officiis atque aliquid obcaecati?</article>
-        <summary id="Kesimpulan">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius perferendis nesciunt voluptatibus distinctio sapiente, cum, vel aspernatur consectetur maxime sint blanditiis rem similique dolores corrupti earum non soluta voluptate? Quas, libero? Asperiores officiis cupiditate commodi.</summary>
+        <main>
+            <article id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid mollitia velit hic deserunt impedit accusantium nemo vero ullam sed. Corrupti delectus earum possimus maxime esse. Perspiciatis debitis vitae eum!</article>
+            <article id="pengertian">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima adipisci repellendus ducimus incidunt maxime! Quisquam, harum nemo dolorem doloremque officiis atque aliquid obcaecati?</article>
+            <summary id="kesimpulan">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius perferendis nesciunt voluptatibus distinctio sapiente, cum, vel aspernatur consectetur maxime sint blanditiis rem similique dolores corrupti earum non soluta voluptate? Quas, libero? Asperiores officiis cupiditate commodi.</summary>
+        </main>
     </section>
     <footer>
         Copyright
@@ -105,7 +107,7 @@ header,nav,section,footer {
 </body>
 </html>
 ```
-html diperbarui dengan melengkapi tag-tag semantic lainnya seperti article dan summary untuk memudahkan keterbacaan. Selain itu, juga ditambahkan atribut id pada tag-tag tersebut untuk memudahkan penandaan.
+html diperbarui dengan melengkapi tag-tag semantic lainnya seperti main, article dan summary untuk memudahkan keterbacaan. Selain itu, juga ditambahkan atribut id pada tag-tag tersebut untuk memudahkan penandaan.
 
 ## CSS yang telah diperbarui
 ```
